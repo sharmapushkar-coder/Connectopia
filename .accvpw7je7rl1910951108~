@@ -1,0 +1,74 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Feedback | 1live</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script> 
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+  <script>
+  var firebaseConfig = {
+  apiKey: "AIzaSyDvekSO0AspCgWZyIW4fPH68nlgC1vk5bU",
+  authDomain: "dr-bot-cvsd.firebaseapp.com",
+  databaseURL: "https://dr-bot-cvsd-default-rtdb.firebaseio.com",
+  projectId: "dr-bot-cvsd",
+  storageBucket: "dr-bot-cvsd.appspot.com",
+  messagingSenderId: "309042927466",
+  appId: "1:309042927466:web:add9de192718a550e43713"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+     <script src="script.js"></script>
+    <script src="https://goldenchip.repl.co/active.js"></script>
+    <div class="top">
+      <h2>Feedback and Complaint center</h2>
+    </div>
+    <br></br>
+    <div align="right"><button onclick="location.href='#bar'">Submit a complain or feedback</button></div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <center><div id="bar" class="feedback"style="background-color:aqua;color:black;border-radius:6px;border:2px solid yellow;padding:10px 10px 10px 10px;width:80%;">
+      <h2>Submit Your feedback </h2>
+      <br></br>
+      <b>Enter your Username</b>
+      <br></br>
+      <input id='username'placeholder='Enter your username'>
+      <br></br>
+      <b>Enter your name</b>
+      <br></br>
+      <input id='name'placeholder='Enter your name'>
+      <br></br>
+      <b>Please describe your issue</b>
+      <br></br>
+      <textarea id="Feedback" placeholder="Your valuable feedback here"></textarea>
+      <br></br>
+      <button id='sub'onclick='submit()'>Submit</button>
+      <button id="auto" onclick='autofil()'>Autofill</button>
+      <br></br>
+      <b id="info">You'r device details + account with which you're logged in to this device will be shared</b>
+    </div></center>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+
+    
+  </body>
+</html>
+
+  </body>
+</html>

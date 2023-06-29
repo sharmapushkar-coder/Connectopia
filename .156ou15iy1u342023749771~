@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Download chat app</title>
+    <link href="https://goldenchip.repl.co/chat/chat.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <style>
+      img{
+       width:80%;
+      }
+    </style>
+    <div>
+      <!--<center><img src="chat.jpg"style="border-radius:50%;border:2px solid yellow;"width="53%"height="160px"></center>-->
+    <div class="back">
+      <center><h1 class=""style="font-family:Monospace">Introducing Quantum Chat app</h1></center>
+  </div>
+      <br></br>
+      <br></br>
+    <center>  <img src="https://firebasestorage.googleapis.com/v0/b/dr-bot-cvsd.appspot.com/o/Screenshot_20230414-202253.png?alt=media&token=757f398f-1097-401e-8b7e-3d3c8f64842e" style="border:2px solid yellow;">
+      <br></br>
+      <img src='https://firebasestorage.googleapis.com/v0/b/dr-bot-cvsd.appspot.com/o/Screenshot_20230414-202255.png?alt=media&token=86f06cfc-1c5f-444a-9b69-1f07dc0cfc33' style="border:2px solid yellow;">
+      <br></br>
+      <img src='https://firebasestorage.googleapis.com/v0/b/dr-bot-cvsd.appspot.com/o/Screenshot_20230414-202430.png?alt=media&token=e1cbf9e0-0866-4c23-b6be-f1e7a42372a0' style="border:2px solid yellow;">
+      <br></br>
+      <img src='https://firebasestorage.googleapis.com/v0/b/dr-bot-cvsd.appspot.com/o/Screenshot_20230414-202438.png?alt=media&token=c9310255-7f5e-40bd-88e0-217177ea42ba' style="border:2px solid yellow;">
+      <br></br>
+      <img src='https://firebasestorage.googleapis.com/v0/b/dr-bot-cvsd.appspot.com/o/Screenshot_20230414-202454.png?alt=media&token=ee568a11-b94d-4551-8811-0f039588d940' style="border:2px solid yellow;"></center>
+      <br></br>
+      <br></br>
+      <br></br>
+      <center><button onclick="location.href='https://goldenchip.repl.co/QuantumOS.apk'"style="background-color:white;color:black;padding:80px 80px 80px 80px">Download For Android</button></center>
+  </body>
+</html>

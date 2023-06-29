@@ -1,0 +1,44 @@
+html,body{
+  background-color:#4C516D;
+  color:white;
+ /* background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1XUJIJgDpR5FLzn5ja9k4RaiapD1ECozLRTpfaJfQ&s');
+  /*background-image:url('https://firebasestorage.googleapis.com/v0/b/dr-bot-cvsd.appspot.com/o/horror.gif?alt=media&token=141b43f3-5a88-49c6-88e1-b36e672e1aae');*/
+  background-size:cover;
+}
+.msg_reading_div{
+  width:90%;
+  background-color:#00FFFF;
+  color:black;
+  border-radius:5px;
+  padding:10px 10px 10px 10;
+  opacity:0.8;
+}
+.button_send{
+  width:15%;
+  height:50px;
+  position:fixed;
+  bottom:2px;
+  right:5px;
+}
+.bar_send{
+  width:85%;
+  height:50px;
+  position:fixed;
+  bottom:2px;
+  left:2px;
+  
+}
+video{
+  width:60%;
+  height:65%;
+}
+video:hover{
+  width:61%;
+  height:66%;
+}
+.top{
+  background-color:#00f500;
+  color:black;
+  border-radius:5px;
+  padding:10px 10px 10px 10px ;
+}

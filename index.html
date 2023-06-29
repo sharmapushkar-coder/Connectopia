@@ -1,0 +1,61 @@
+<html>
+
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1750533681824200"
+     crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Welcome to Connectopia</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script> 
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+  <script>
+  var firebaseConfig = {
+  apiKey: "AIzaSyDvekSO0AspCgWZyIW4fPH68nlgC1vk5bU",
+  authDomain: "dr-bot-cvsd.firebaseapp.com",
+  databaseURL: "https://dr-bot-cvsd-default-rtdb.firebaseio.com",
+  projectId: "dr-bot-cvsd",
+  storageBucket: "dr-bot-cvsd.appspot.com",
+  messagingSenderId: "309042927466",
+  appId: "1:309042927466:web:add9de192718a550e43713"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+  </head>
+  <body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="home.js"></script>
+    <script src="Active.js"></script>
+    <div class="loading-top"id="load">
+      <center>
+        <b id="log_data">We're connecting . Hold tightly...</b>
+      </center>
+    </div>
+    <div class="top-bar">
+      <h2 id="user-name"style="color:white;"></h2>
+    </div>
+    <div id="info"style="display:none">
+      <b id="msg"></b>
+    </div>
+
+    <div class="news"onmouseover="increase()"onmouseout="decrease()"id="main">
+      <h2 style="text-align:center">Menu</h2>
+      <button onclick="location.href='chat/?from=home'"class="more-button">Chat</button>
+      <br></br>
+      <button onclick="location.href='https://mgamer.111dots.repl.co/?from=connectopia'"class="more-button">Rewards</button>
+      <br></br>
+      <button onclick="location.href='https://connectopia.repl.co/about/mods.html'"class="more-button">About Moderators</button>
+      <br></br>
+      <button onclick="location.href='logout/?from=home'"class="more-button">Logout</button>
+      <br></br>
+      <button onclick="location.href='feedback'"class="more-button">Share feedback or Report</button>
+    </div>
+    <div class="search-div">
+      <textarea id="s"placeholder="Search a user on Connectopia"></textarea>
+      <button onclick="search()"class="sbutton">Search</button>
+    </div>
+  </body>
+</html>
